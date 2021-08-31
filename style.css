@@ -60,3 +60,15 @@ body {
 
 }
 
+@media( max-width : 480px){
+    .container{
+        width: 99vw;
+
+    }
+
+    .panel:nth-of-type(5),
+    .panel:nth-of-type(6) {
+        display: none;
+    }
+}
+
