@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Times New Roman', Times, serif;
     display: flex;
     flex-direction: column;
     align-items:center;
@@ -18,7 +18,7 @@ body {
 
 .container {
     display: flex;
-    width: 90vw;
+    width: 95vw;
     
 }
 
@@ -27,8 +27,9 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     height: 88vh;
+    
     border-radius: 50px;
-    color: #fff;
+    color: rgb(35, 9, 9);
     cursor: pointer;
     flex: 0.5;
     margin: 10px;
@@ -37,9 +38,25 @@ body {
        
 }
 
-.panel h3{
+.panel h3 {
     font-size: 25px;
     position: absolute;
     bottom: 20px;
-    left: 20px;
+    left: 40px;
+    /* margin: 0; */
+    opacity: 0.1;
+    border-style: solid ;
+    border-radius: 50px;
+
 }
+
+.panel.active {
+    flex: 6;
+    
+}
+
+.panel.active h3{
+    opacity: 1;
+
+}
+
