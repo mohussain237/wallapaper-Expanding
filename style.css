@@ -43,6 +43,7 @@ body {
     position: absolute;
     bottom: 20px;
     left: 40px;
+    padding: 5px 10px;
     /* margin: 0; */
     opacity: 0.1;
     border-style: solid ;
@@ -57,18 +58,15 @@ body {
 
 .panel.active h3{
     opacity: 1;
-
 }
 
-@media( max-width : 480px){
+@media (max-width:500px){
     .container{
-        width: 99vw;
-
+        width: 100vw;
     }
 
     .panel:nth-of-type(5),
-    .panel:nth-of-type(6) {
+    .panel:nth-of-type(6){
         display: none;
     }
 }
-
