@@ -29,25 +29,27 @@ body {
     height: 88vh;
     
     border-radius: 50px;
-    color: rgb(35, 9, 9);
+    color: rgb(238, 231, 231);
     cursor: pointer;
-    flex: 0.5;
+    flex: 0.9;
     margin: 10px;
     position: relative;
-    transition: flex 0.8s ease-in;
+    transition: flex 0.4s ease-in;
        
 }
 
 .panel h3 {
     font-size: 25px;
     position: absolute;
-    bottom: 20px;
+    bottom: 40px;
     left: 40px;
     padding: 5px 10px;
-    /* margin: 0; */
-    opacity: 0.1;
+    margin: 0;
+    opacity: 0;
+
     border-style: solid ;
     border-radius: 50px;
+    
 
 }
 
@@ -58,6 +60,7 @@ body {
 
 .panel.active h3{
     opacity: 1;
+    transition: opacity 0.3s;
 }
 
 @media (max-width:500px){
